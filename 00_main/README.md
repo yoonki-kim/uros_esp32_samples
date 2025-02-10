@@ -1,18 +1,18 @@
 # Sample project
 
-可以用以下命令创建一个最简单的esp-idf项目，以main项目为例。
+You can use the following command to create a simplest esp-idf project, taking the main project as an example.
 
 ```
 idf.py create-project main
 ```
 
-进入对应的工程目录
+Enter the corresponding project directory
 
 ```
 cd main
 ```
 
-项目文件列表：
+Project file list:
 
 ```
 ├── CMakeLists.txt
@@ -22,7 +22,7 @@ cd main
 ```
 
 
-设置目标ESP芯片型号: esp32s3
+Set the target ESP chip model: esp32s3
 
 ```
 idf.py set-target esp32s3
@@ -30,7 +30,7 @@ idf.py set-target esp32s3
 
 
 
-打开配置菜单
+Open the configuration menu
 
 ```
 idf.py menuconfig
@@ -38,7 +38,7 @@ idf.py menuconfig
 
 
 
-编译固件
+Compile the firmware
 
 ```
 idf.py build
@@ -46,7 +46,7 @@ idf.py build
 
 
 
-烧录固件并打开串口助手
+Burn the firmware and open the serial port assistant
 
 ```
 idf.py flash monitor
